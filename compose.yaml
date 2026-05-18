@@ -4,4 +4,4 @@ services:
       environment:
         POSTGRES_PASSWORD: "local_password"
       ports:
-        - "host:guest"  
+        - "5432:5432"  
