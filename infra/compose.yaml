@@ -1,0 +1,7 @@
+services:
+    database:   
+      images: 'postgres:16.0-alpine3.18' //apenas uma versão que não existe... brincando de codigo 
+      environment:
+        POSTGRES_PASSWORD: "local_password"
+      ports:
+             "5432:5432" 
